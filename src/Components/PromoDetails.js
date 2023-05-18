@@ -50,6 +50,8 @@ class MovieDetails extends React.Component {
                     description: 'La promoción se ha añadido correctamente al carrito',
                 }); 
             }
+        } else {
+            this.props.navigate('/login');
         }
     }  
   
